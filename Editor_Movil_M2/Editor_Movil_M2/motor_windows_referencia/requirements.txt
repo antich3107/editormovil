@@ -1,0 +1,5 @@
+# Base del editor: Python estándar + FFmpeg instalado en el sistema
+# Sincronización de narración (opcional pero recomendado)
+faster-whisper>=1.0.0
+# PyAV debe estar actualizado para que faster-whisper pueda abrir el audio
+av>=12.0.0
